@@ -1,0 +1,48 @@
+fun nombre(nombre1: String, nombre2: String):String{
+
+    var nom1 = nombre1.length
+
+    var nom2 = nombre2.length
+
+    var resultado = "";
+
+
+
+    if(nom1 > nom2){
+
+        resultado = "el primer nombre es mayor";
+
+    }else if(nom1 == nom2){
+
+        resultado = "el tamano de los nombres son iguales";
+
+    }else{
+
+        resultado = "el segundo nombre es mas largo ";
+
+    }
+
+    return (resultado)
+
+}
+
+
+
+
+
+fun main(Nombre_largo:Array<String>){
+
+
+    println("ingrese el primer nombre");
+
+    var nombre1 = readLine()!!.toString();
+
+
+    println("ingrese el segundo nombre");
+
+    var nombre2 = readLine()!!.toString();
+
+
+    println(nombre(nombre1,nombre2))
+
+}

@@ -1,0 +1,68 @@
+fun main(Valores: Array<String>){
+
+
+
+    println("Ingresa la cantidad de numeros a comparar")
+
+
+    var cantidad = 2;
+
+ 
+    var positivos = 0;
+
+    var negativos = 0;
+
+    var pares = 0;
+
+    var multiplos = 0;
+
+
+
+    for (i in 1..cantidad){
+
+        
+println("ingresa N-"+(i));
+
+        var numero = -15;
+
+
+
+        if(numero >= 0){
+
+            positivos++;
+
+            if (numero % 2==0 ){
+
+                pares++;
+
+            }
+            
+	if (numero % 15 == 0){
+
+                multiplos ++;
+
+            }
+        
+}else{
+
+            negativos ++;
+
+
+        }
+    
+
+}
+
+
+    
+println("total de numeros positivos = $positivos");
+
+println("total de numeros negativos = $negativos");
+    
+println("total de numeros pares = $pares");
+    
+println("total de numeros multiplos de 15 = $multiplos");
+
+
+
+}

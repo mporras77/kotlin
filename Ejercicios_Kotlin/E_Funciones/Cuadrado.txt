@@ -1,0 +1,39 @@
+fun calculaCuadrado() {
+
+        print("Ingrese un entero:")
+
+        val valor = 10
+
+        val cuadrado = valor * valor
+
+        println("El cuadrado es $cuadrado")
+
+    }
+
+    
+
+fun calcularProducto() {
+
+        print("Ingrese primer valor:")
+
+        val valor1 = 4
+
+        print("Ingrese segundo valor:")
+
+        val valor2 = 7
+
+        val producto = valor1 * valor2
+
+        println("El producto de los valores es: $producto")
+
+    }
+
+    
+
+fun main(args: Array<String>) {
+
+        calculaCuadrado()
+
+        calcularProducto()
+    
+}

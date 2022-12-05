@@ -1,0 +1,22 @@
+fun main(ValorNulo: Array<String>){
+
+
+
+var valor=4;
+
+
+
+    when(valor){
+
+
+
+            in 1 .. 5 -> print("Su valor es positivo")
+            
+	    -1,-2,-3,-4,-5 -> print("Su valor es negativo")
+
+            else -> print("Nulo")
+    
+	}
+
+
+}

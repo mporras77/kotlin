@@ -1,0 +1,45 @@
+//Escribir un programa que pida ingresar coordenadas (x,y) que representan puntos en el plano.Informar cuántos puntos se han ingresado en el primer, segundo, tercer y cuarto cuadrante.
+
+
+
+fun main(Coordenadas: Array<String>) {
+
+
+
+for(i in 1..6){
+
+        var x=5;
+        
+	var y=9;
+
+        
+if(x > 0 && y > 0){
+
+            println("Cuadrante 1")
+        
+	}
+
+
+if(x < 0 && y > 0){
+            
+println("Cuadrante 2")
+        
+	}
+       
+
+if(x < 0 && y < 0){
+
+            println("Cuadrante 3")
+     
+	}
+        
+
+if(x > 0 && y < 0){
+
+            println("Cuadrante 4")
+        
+	}
+    
+    }
+
+}    

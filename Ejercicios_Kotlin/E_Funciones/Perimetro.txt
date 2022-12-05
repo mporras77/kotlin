@@ -1,0 +1,21 @@
+fun Perimetro(lado: Int): Int {
+
+    val perimetro = lado * 4
+
+    return perimetro
+
+}
+
+
+
+fun main(parametro: Array<String>) {
+
+
+    print("Ingrese el lado del cuadrado:")
+
+
+    val lado = 7
+
+
+    print("El perimetro es: ${Perimetro(lado)}")
+}

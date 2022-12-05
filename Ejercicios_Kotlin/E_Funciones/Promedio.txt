@@ -1,0 +1,21 @@
+fun retornarPromedio(v1: Int, v2: Int, v3: Int) = (v1 + v2 + v3) / 3
+
+
+
+fun main(parametro: Array<String>) {
+
+    print("Ingrese primer valor:")
+
+    val valor1 = 5
+
+    print("Ingrese segundo valor:")
+
+    val valor2 = 10
+
+    print("Ingrese tercer valor:")
+
+    val valor3 = 9
+
+
+    println("Valor promedio de los tres números ingresados es ${retornarPromedio(valor1, valor2, valor3)}")
+}
